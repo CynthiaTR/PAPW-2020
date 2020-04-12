@@ -18,7 +18,7 @@
     <title>PAPWProyect</title>
   </head>
   <body>
-    <div class="flex ">
+    <div class="flex">
       <img src="./banner.jpg" alt="Fondo" width="100%" />
     </div>
     <header class="bg-pink-600 w-full h-16 flex justify-center">
@@ -27,29 +27,30 @@
         <div class="flex flex-inline">
           <input
             type="text"
-            class="px-64  rounded-full bg-pink-200 flex flex-inline"
+            class="px-64 rounded-full bg-pink-200 flex flex-inline"
           />
           <input
             type="button"
-            class="px-16  rounded-full bg-pink-400 flex flex-inline -ml-32"
+            class="px-16 rounded-full bg-pink-400 flex flex-inline -ml-32"
           />
         </div>
-        <div class="flex flex-inline text-yellow-500 text-xl mt-2 ml-32 justify-end">
+        <div
+          class="flex flex-inline text-yellow-500 text-xl mt-2 ml-32 justify-end"
+        >
           <div class=" ">
-            <p>Categorias ></p>          
+            <p>Categorias ></p>
           </div>
-          <div class=" mx-12">
-            <p>Iniciar Sesion</p>
+          <div class="mx-12">
+            <p>Crear Cuenta</p>
           </div>
           <div class="">
-            <p>Cerrar Sesion</p>
+            <p>Iniciar Sesion</p>
           </div>
         </div>
       </div>
     </header>
-
+    <!--Carusel de imagenes-->
     <div class="carousel relative shadow-2xl bg-white">
-      <!--Carusel de imagenes-->
       <div class="carousel-inner relative overflow-hidden w-full">
         <!--Slide 1-->
         <input
@@ -61,7 +62,7 @@
           hidden=""
           checked="checked"
         />
-        <div class="carousel-item absolute opacity-0" style="height: 50vh;">
+        <div class="carousel-item absolute opacity-0" style="height: 70vh;">
           <div
             class="block h-full w-full bg-indigo-500 text-white text-5xl text-center"
           >
@@ -88,7 +89,7 @@
           aria-hidden="true"
           hidden=""
         />
-        <div class="carousel-item absolute opacity-0" style="height: 50vh;">
+        <div class="carousel-item absolute opacity-0" style="height: 70vh;">
           <div
             class="block h-full w-full bg-orange-500 text-white text-5xl text-center"
           >
@@ -115,7 +116,7 @@
           aria-hidden="true"
           hidden=""
         />
-        <div class="carousel-item absolute opacity-0" style="height: 50vh;">
+        <div class="carousel-item absolute opacity-0" style="height: 70vh;">
           <div
             class="block h-full w-full bg-green-500 text-white text-5xl text-center"
           >
@@ -159,5 +160,56 @@
         </ol>
       </div>
     </div>
+    <!--Modulo-->
+    <div class="flex justify-center">
+      <div
+        class="bg-pink-100 mx-auto h-auto rounded-b-lg flex-inline"
+        style="width: 80%;"
+      >
+        <!--Tarjetas Productos-->
+        <div class="w-full h-64 mt-10 flex flex-inline justify-around mb-10">
+          <div class="bg-pink-600 h-full rounded-lg" style="width: 30%;"></div>
+          <div class="bg-pink-600 h-full rounded-lg" style="width: 30%;"></div>
+          <div class="bg-pink-600 h-full rounded-lg" style="width: 30%;"></div>
+        </div>
+        <!--Categorias-->
+        <p class="text-yellow-500 text-3xl block justify-stard ml-10">
+          CATEGORIAS
+        </p>
+        <!--Categorias tarjetas-->
+        <div class="w-full h-40 flex flex-inline justify-center mb-24 mt-5">
+          <div
+            class="bg-pink-600 h-full rounded-lg ml-10"
+            style="width: 17%;"
+          ></div>
+          <div
+            class="bg-pink-600 h-full rounded-lg ml-10"
+            style="width: 17%;"
+          ></div>
+          <div
+            class="bg-pink-600 h-full rounded-lg ml-10"
+            style="width: 17%;"
+          ></div>
+          <div
+            class="bg-pink-600 h-full rounded-lg ml-10"
+            style="width: 17%;"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <footer class="w-full py-10 mt-3">
+      <div class="w-full h-auto flex flex-inline justify-around text-white">
+        <p>
+          Proyecto de PAPW
+        </p>
+        <p>
+          Front : Cynthia Berenice Torres Regalado
+        </p>
+        <p>
+          Back: Luis Gerardo Rodfriguez Garcia
+        </p>
+      </div>
+      <p class="flex justify-center mt-8 text-white">Pasenos profe plox :'v</p>
+    </footer>
   </body>
 </html>
